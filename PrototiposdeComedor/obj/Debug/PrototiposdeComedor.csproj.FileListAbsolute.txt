@@ -1,0 +1,13 @@
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\PrototiposdeComedor.exe.config
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\PrototiposdeComedor.exe
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\PrototiposdeComedor.pdb
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.Form1.resources
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.Properties.Resources.resources
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.exe
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.pdb
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.MenuPrincipal.resources
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.Usuarios.resources
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.Comensales.resources
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.Registro.resources
