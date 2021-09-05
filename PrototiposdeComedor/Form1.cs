@@ -8,10 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace PrototiposdeComedor
 {
     public partial class Form1 : Form
     {
+        OracleDataBaseConexion conexion = new OracleDataBaseConexion();
         public Form1()
         {
             InitializeComponent();
@@ -34,9 +36,11 @@ namespace PrototiposdeComedor
 
         private void button1_Click(object sender, EventArgs e)
         {
+            conexion.conect();
             this.Hide();
             MenuPrincipal menu = new MenuPrincipal();
             menu.Show();
+            
         }
     }
 }

@@ -44,9 +44,9 @@
             this.ConfiguracionPB = new System.Windows.Forms.PictureBox();
             this.ConfiguracionLB = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.UsuariosPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EmpleadosPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ReportesPB)).BeginInit();
@@ -72,10 +72,10 @@
             // UsuariosLB
             // 
             this.UsuariosLB.AutoSize = true;
-            this.UsuariosLB.Font = new System.Drawing.Font("Adobe Fan Heiti Std B", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UsuariosLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UsuariosLB.Location = new System.Drawing.Point(220, 558);
             this.UsuariosLB.Name = "UsuariosLB";
-            this.UsuariosLB.Size = new System.Drawing.Size(95, 26);
+            this.UsuariosLB.Size = new System.Drawing.Size(105, 25);
             this.UsuariosLB.TabIndex = 1;
             this.UsuariosLB.Text = "Usuarios";
             this.UsuariosLB.Click += new System.EventHandler(this.label1_Click);
@@ -83,10 +83,10 @@
             // EmpleadosLB
             // 
             this.EmpleadosLB.AutoSize = true;
-            this.EmpleadosLB.Font = new System.Drawing.Font("Adobe Fan Heiti Std B", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmpleadosLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EmpleadosLB.Location = new System.Drawing.Point(452, 558);
             this.EmpleadosLB.Name = "EmpleadosLB";
-            this.EmpleadosLB.Size = new System.Drawing.Size(126, 26);
+            this.EmpleadosLB.Size = new System.Drawing.Size(141, 25);
             this.EmpleadosLB.TabIndex = 3;
             this.EmpleadosLB.Text = "Comensales";
             // 
@@ -104,10 +104,10 @@
             // ReporteLB
             // 
             this.ReporteLB.AutoSize = true;
-            this.ReporteLB.Font = new System.Drawing.Font("Adobe Fan Heiti Std B", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReporteLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ReporteLB.Location = new System.Drawing.Point(701, 558);
             this.ReporteLB.Name = "ReporteLB";
-            this.ReporteLB.Size = new System.Drawing.Size(87, 26);
+            this.ReporteLB.Size = new System.Drawing.Size(95, 25);
             this.ReporteLB.TabIndex = 5;
             this.ReporteLB.Text = "Reporte";
             this.ReporteLB.Click += new System.EventHandler(this.label1_Click_1);
@@ -125,10 +125,10 @@
             // RegistroLB
             // 
             this.RegistroLB.AutoSize = true;
-            this.RegistroLB.Font = new System.Drawing.Font("Adobe Fan Heiti Std B", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegistroLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegistroLB.Location = new System.Drawing.Point(948, 558);
             this.RegistroLB.Name = "RegistroLB";
-            this.RegistroLB.Size = new System.Drawing.Size(91, 26);
+            this.RegistroLB.Size = new System.Drawing.Size(100, 25);
             this.RegistroLB.TabIndex = 7;
             this.RegistroLB.Text = "Registro";
             // 
@@ -178,10 +178,10 @@
             // SalirLB
             // 
             this.SalirLB.AutoSize = true;
-            this.SalirLB.Font = new System.Drawing.Font("Adobe Fan Heiti Std B", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SalirLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SalirLB.Location = new System.Drawing.Point(89, 883);
             this.SalirLB.Name = "SalirLB";
-            this.SalirLB.Size = new System.Drawing.Size(39, 19);
+            this.SalirLB.Size = new System.Drawing.Size(42, 18);
             this.SalirLB.TabIndex = 11;
             this.SalirLB.Text = "Salir";
             // 
@@ -198,10 +198,10 @@
             // ConfiguracionLB
             // 
             this.ConfiguracionLB.AutoSize = true;
-            this.ConfiguracionLB.Font = new System.Drawing.Font("Adobe Fan Heiti Std B", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConfiguracionLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConfiguracionLB.Location = new System.Drawing.Point(1067, 883);
             this.ConfiguracionLB.Name = "ConfiguracionLB";
-            this.ConfiguracionLB.Size = new System.Drawing.Size(106, 19);
+            this.ConfiguracionLB.Size = new System.Drawing.Size(113, 18);
             this.ConfiguracionLB.TabIndex = 13;
             this.ConfiguracionLB.Text = "Configuracion";
             // 
@@ -215,16 +215,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1366, 188);
             this.panel1.TabIndex = 14;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // label1
+            // label3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(626, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 28);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Bienvenido";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(626, 83);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(125, 28);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "USUARIO";
             // 
             // label2
             // 
@@ -236,15 +237,15 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Comedor CALOREX";
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(626, 83);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(125, 28);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "USUARIO";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(626, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(141, 28);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Bienvenido";
             // 
             // MenuPrincipal
             // 
@@ -270,6 +271,7 @@
             this.Name = "MenuPrincipal";
             this.Text = "MenuPrincipal";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.UsuariosPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EmpleadosPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ReportesPB)).EndInit();

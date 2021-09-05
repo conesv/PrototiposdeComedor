@@ -23,5 +23,10 @@ namespace PrototiposdeComedor
             MenuPrincipal menu = new MenuPrincipal();
             menu.Show();
         }
+
+        private void Comensales_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

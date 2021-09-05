@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Oracle.ManagedDataAccess.Client;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace PrototiposdeComedor
 {
     public partial class MenuPrincipal : Form
     {
+        OracleDataBaseConexion conexion = new OracleDataBaseConexion();
         public MenuPrincipal()
         {
             InitializeComponent();
@@ -46,6 +48,22 @@ namespace PrototiposdeComedor
             this.Hide();
             Registro registro = new Registro();
             registro.Show();
+        }
+
+        private void MenuPrincipal_Load(object sender, EventArgs e)
+        {
+            String sql = "Select privilegios from usuarios where usuario = 'SYSTEM'";
+            conexion.conect();
+            OracleCommand comando = new OracleCommand(sql, conexion);
+            comando.CommandType = CommandType.Text;
+
+
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
