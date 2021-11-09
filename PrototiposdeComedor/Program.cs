@@ -6,17 +6,21 @@ using System.Windows.Forms;
 
 namespace PrototiposdeComedor
 {
+
     static class Program
     {
+        public static string globales1;
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
+        /// 
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            
         }
     }
 }

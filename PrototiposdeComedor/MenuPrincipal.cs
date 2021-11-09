@@ -13,7 +13,6 @@ namespace PrototiposdeComedor
 {
     public partial class MenuPrincipal : Form
     {
-        OracleDataBaseConexion conexion = new OracleDataBaseConexion();
         public MenuPrincipal()
         {
             InitializeComponent();
@@ -31,9 +30,15 @@ namespace PrototiposdeComedor
 
         private void UsuariosPB_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Usuarios usuarios = new Usuarios();
-            usuarios.Show();
+            if (Program.globales1 == "1") {
+                this.Hide();
+                Usuarios usuarios = new Usuarios();
+                usuarios.Show();
+            }
+              else
+            {
+                MessageBox.Show("inicie sesion como administrador");
+            }
         }
 
         private void EmpleadosPB_Click(object sender, EventArgs e)
@@ -52,18 +57,35 @@ namespace PrototiposdeComedor
 
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
-            String sql = "Select privilegios from usuarios where usuario = 'SYSTEM'";
-            conexion.conect();
-            OracleCommand comando = new OracleCommand(sql, conexion);
-            comando.CommandType = CommandType.Text;
-
-
-
+            if (Program.globales1.Equals("3"))
+            {
+                UsuariosPB.Enabled = false;
+                ConfiguracionPB.Enabled = false;
+            }
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void SalirPB_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void ConfiguracionPB_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Configuracion configuracion = new Configuracion();
+            configuracion.Show();
+        }
+
+        private void ReportesPB_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Reportes reportes = new Reportes();
+            reportes.Show();
         }
     }
 }

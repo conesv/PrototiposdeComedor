@@ -46,3 +46,36 @@ C:\Users\estpid9m\OneDrive - Ariston Thermo Group\Documents\GitHub\PrototiposdeC
 C:\Users\estpid9m\OneDrive - Ariston Thermo Group\Documents\GitHub\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.csproj.CopyComplete
 C:\Users\estpid9m\OneDrive - Ariston Thermo Group\Documents\GitHub\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.exe
 C:\Users\estpid9m\OneDrive - Ariston Thermo Group\Documents\GitHub\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.pdb
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.Buffers.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.Memory.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.Text.Json.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.ValueTuple.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.Buffers.xml
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.Memory.xml
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.Text.Json.xml
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.ValueTuple.xml
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.csproj.CopyComplete
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\zxing.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\zxing.presentation.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\zxing.xml
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\zxing.presentation.xml
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.Reportes.resources
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\obj\Debug\PrototiposdeComedor.Configuracion.resources
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\SpreadsheetLight.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.Drawing.Common.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.IO.Packaging.dll
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\SpreadsheetLight.xml
+C:\Users\Dell\source\repos\PrototiposdeComedor\PrototiposdeComedor\bin\Debug\System.IO.Packaging.xml

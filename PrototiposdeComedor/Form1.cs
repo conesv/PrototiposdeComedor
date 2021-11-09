@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace PrototiposdeComedor
 {
     public partial class Form1 : Form
@@ -36,11 +35,40 @@ namespace PrototiposdeComedor
 
         private void button1_Click(object sender, EventArgs e)
         {
-            conexion.conect();
-            this.Hide();
-            MenuPrincipal menu = new MenuPrincipal();
-            menu.Show();
-            
+            try
+            {
+                conexion.conect();
+                string user = conexion.comand("select usuario from usuarios where usuario = '"+textBox1.Text+"'");
+                string password = conexion.comand("select password from usuarios where usuario = '" + textBox1.Text + "'");
+                string privilegios = conexion.comand("select privilegios from usuarios where usuario = '" + textBox1.Text + "'");
+            if (user == textBox1.Text && password == textBox2.Text)
+                {
+                if (privilegios == "1")
+                {
+                    Program.globales1 = "1";
+                }
+                else if (privilegios == "2")
+                {
+                    Program.globales1 = "2";
+                }
+                else
+                {
+                    Program.globales1 = "3";
+                }
+                MenuPrincipal menu = new MenuPrincipal();
+                    this.Hide();
+                    menu.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario o contrasña incorrecta");
+                }
+            }
+            catch (Exception)
+            {
+                label3.Visible = true;
+            }
+           
         }
     }
 }

@@ -1,0 +1,22 @@
+﻿[*.cs]
+
+# IDE0017: Simplificar la inicialización de objetos
+dotnet_style_object_initializer = true:none
+
+# CA2000: Desechar (Dispose) objetos antes de perder el ámbito
+dotnet_diagnostic.CA2000.severity = none
+
+# CA2119: Sellar los métodos que cumplan las interfaces privadas
+dotnet_diagnostic.CA2119.severity = warning
+
+# CA2100: Revisar consultas SQL para comprobar si tienen vulnerabilidades de seguridad
+dotnet_diagnostic.CA2100.severity = warning
+
+# IDE0067: Desechar (Dispose) objetos antes de perder el ámbito
+dotnet_diagnostic.IDE0067.severity = warning
+
+# CA1001: Los tipos que poseen campos descartables deben ser descartables
+dotnet_diagnostic.CA1001.severity = none
+
+# CA1031: No capture tipos de excepción generales.
+dotnet_diagnostic.CA1031.severity = suggestion

@@ -121,6 +121,7 @@
             this.ReportesPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ReportesPB.TabIndex = 4;
             this.ReportesPB.TabStop = false;
+            this.ReportesPB.Click += new System.EventHandler(this.ReportesPB_Click);
             // 
             // RegistroLB
             // 
@@ -174,6 +175,7 @@
             this.SalirPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.SalirPB.TabIndex = 10;
             this.SalirPB.TabStop = false;
+            this.SalirPB.Click += new System.EventHandler(this.SalirPB_Click);
             // 
             // SalirLB
             // 
@@ -190,10 +192,11 @@
             this.ConfiguracionPB.Image = ((System.Drawing.Image)(resources.GetObject("ConfiguracionPB.Image")));
             this.ConfiguracionPB.Location = new System.Drawing.Point(1071, 784);
             this.ConfiguracionPB.Name = "ConfiguracionPB";
-            this.ConfiguracionPB.Size = new System.Drawing.Size(102, 83);
+            this.ConfiguracionPB.Size = new System.Drawing.Size(1300, 1044);
             this.ConfiguracionPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ConfiguracionPB.TabIndex = 12;
             this.ConfiguracionPB.TabStop = false;
+            this.ConfiguracionPB.Click += new System.EventHandler(this.ConfiguracionPB_Click);
             // 
             // ConfiguracionLB
             // 
@@ -269,7 +272,7 @@
             this.Controls.Add(this.UsuariosPB);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MenuPrincipal";
-            this.Text = "MenuPrincipal";
+            this.Text = resources.GetString("$this.Text");
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.UsuariosPB)).EndInit();
