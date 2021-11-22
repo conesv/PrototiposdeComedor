@@ -190,9 +190,9 @@
             // ConfiguracionPB
             // 
             this.ConfiguracionPB.Image = ((System.Drawing.Image)(resources.GetObject("ConfiguracionPB.Image")));
-            this.ConfiguracionPB.Location = new System.Drawing.Point(1071, 784);
+            this.ConfiguracionPB.Location = new System.Drawing.Point(1070, 769);
             this.ConfiguracionPB.Name = "ConfiguracionPB";
-            this.ConfiguracionPB.Size = new System.Drawing.Size(1300, 1044);
+            this.ConfiguracionPB.Size = new System.Drawing.Size(100, 98);
             this.ConfiguracionPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ConfiguracionPB.TabIndex = 12;
             this.ConfiguracionPB.TabStop = false;
@@ -229,6 +229,7 @@
             this.label3.Size = new System.Drawing.Size(125, 28);
             this.label3.TabIndex = 2;
             this.label3.Text = "USUARIO";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -274,6 +275,7 @@
             this.Name = "MenuPrincipal";
             this.Text = resources.GetString("$this.Text");
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MenuPrincipal_FormClosed);
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.UsuariosPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EmpleadosPB)).EndInit();

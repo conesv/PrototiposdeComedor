@@ -176,7 +176,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(886, 905);
+            this.button4.Location = new System.Drawing.Point(909, 905);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(120, 29);
             this.button4.TabIndex = 13;
@@ -332,8 +332,9 @@
             this.Controls.Add(this.richTextBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Usuarios";
-            this.Text = "Usuarios";
+            this.Text = "Registros Usuarios";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Usuarios_FormClosed);
             this.Load += new System.EventHandler(this.Usuarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -56,6 +56,7 @@ namespace PrototiposdeComedor
                     Program.globales1 = "3";
                 }
                 MenuPrincipal menu = new MenuPrincipal();
+                    Program.usuario = textBox1.Text;
                     this.Hide();
                     menu.Show();
                 }

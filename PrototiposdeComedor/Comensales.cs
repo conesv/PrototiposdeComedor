@@ -103,7 +103,7 @@ namespace PrototiposdeComedor
             }
             catch (Exception)
             {
-
+                MessageBox.Show("Porfavor seleccione donde guardara su codigo QR");
             }
         }
 
@@ -121,20 +121,32 @@ namespace PrototiposdeComedor
 
         private void button5_Click(object sender, EventArgs e)
         {
-            BarcodeWriter qr = new BarcodeWriter();
-            qr.Format = BarcodeFormat.QR_CODE;
-            Bitmap codigoqr = qr.Write(label7.Text);
-            pictureBox3.Image = codigoqr;
-            SaveFileDialog Guardar = new SaveFileDialog();
-            Guardar.Filter = "JPEG(*.JPG)|*.JPG|BMP(*.BMP)|*.BMP";
-            Image Imagen = pictureBox3.Image;
-            Guardar.ShowDialog();
-            Imagen.Save(Guardar.FileName);
+            try
+            {
+                BarcodeWriter qr = new BarcodeWriter();
+                qr.Format = BarcodeFormat.QR_CODE;
+                Bitmap codigoqr = qr.Write(label7.Text);
+                pictureBox3.Image = codigoqr;
+                SaveFileDialog Guardar = new SaveFileDialog();
+                Guardar.Filter = "JPEG(*.JPG)|*.JPG|BMP(*.BMP)|*.BMP";
+                Image Imagen = pictureBox3.Image;
+                Guardar.ShowDialog();
+                Imagen.Save(Guardar.FileName);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("porfavor seleccione donde guardar el codigo QR");
+            }
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Comensales_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

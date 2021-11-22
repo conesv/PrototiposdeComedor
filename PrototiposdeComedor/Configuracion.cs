@@ -44,5 +44,10 @@ namespace PrototiposdeComedor
             MenuPrincipal menuprincipal = new MenuPrincipal();
             menuprincipal.Show();
         }
+
+        private void Configuracion_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

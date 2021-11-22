@@ -27,6 +27,7 @@ namespace PrototiposdeComedor
 
         private void Registro_Load(object sender, EventArgs e)
         {
+            label1.Text = "Hoy es: " + Program.date;
             this.ActiveControl = Invisible;
             conexion.conect();
         }
@@ -54,6 +55,11 @@ namespace PrototiposdeComedor
         private void Registro_Click(object sender, EventArgs e)
         {
             this.ActiveControl = Invisible;
+        }
+
+        private void Registro_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -20,3 +20,6 @@ dotnet_diagnostic.CA1001.severity = none
 
 # CA1031: No capture tipos de excepción generales.
 dotnet_diagnostic.CA1031.severity = suggestion
+
+# CA1303: No pasar cadenas literal como parámetros localizados
+dotnet_diagnostic.CA1303.severity = warning

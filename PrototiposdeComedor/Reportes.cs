@@ -26,6 +26,7 @@ namespace PrototiposdeComedor
 
         private void Reportes_Load(object sender, EventArgs e)
         {
+            label5.Text = "Hoy Es: " + Program.date;
             conexion.conect();
             DataSet ds = conexion.llenar("Select * from usuarios");
             DataSet ds1 = conexion.llenar("Select empresa from empresas");
@@ -49,11 +50,11 @@ namespace PrototiposdeComedor
                 String Fecha2 = dateTimePicker2.Value + "";
                 Fecha1 = Fecha1.Substring(0, 11);
                 Fecha2 = Fecha2.Substring(0, 11);
-                MessageBox.Show(Fecha1);
-                Querty = "SELECT nombre, empresa, TO_CHAR(FECHA_COMIDA,'DD-MM-YYYY'), TURNO_COMIDA, precio_platillo from comensales, comidas where comensales.N_EMPLEADO = comidas.N_EMPLEADO AND FECHA_COMIDA BETWEEN '" + Fecha1 + "' AND '" + Fecha2 + "' ";
+                Querty = "SELECT nombre, empresa, TO_CHAR(FECHA_COMIDA,'DD-MM-YYYY'), precio_platillo from comensales, comidas where comensales.N_EMPLEADO = comidas.N_EMPLEADO AND FECHA_COMIDA BETWEEN '" + Fecha1 + "' AND '" + Fecha2 + "' ";
                 DataSet ds = conexion.llenar(Querty);
                 DataTable dt = ds.Tables[0];
-                String Path = AppDomain.CurrentDomain.BaseDirectory + "excelReporte.xlsx";
+                saveFileDialog1.ShowDialog();
+                String Path = saveFileDialog1.FileName+ ".xlsx";
                 SLDocument osl = new SLDocument();
                 osl.ImportDataTable(1, 1, dt, true);
                 osl.SaveAs(Path);
@@ -65,15 +66,15 @@ namespace PrototiposdeComedor
                 String Fecha2 = dateTimePicker2.Value + "";
                 Fecha1 = Fecha1.Substring(0, 11);
                 Fecha2 = Fecha2.Substring(0, 11);
-                MessageBox.Show(Fecha1);
-                Querty = "SELECT nombre, empresa, TO_CHAR(FECHA_COMIDA,'DD-MM-YYYY'), TURNO_COMIDA, precio_platillo from comensales, comidas where comensales.N_EMPLEADO = comidas.N_EMPLEADO AND FECHA_COMIDA BETWEEN '" + Fecha1 + "' AND '" + Fecha2 + "' AND empresa = '" +comboBox1.Text +"'";
+                Querty = "SELECT nombre, empresa, TO_CHAR(FECHA_COMIDA,'DD-MM-YYYY'), precio_platillo from comensales, comidas where comensales.N_EMPLEADO = comidas.N_EMPLEADO AND FECHA_COMIDA BETWEEN '" + Fecha1 + "' AND '" + Fecha2 + "' AND empresa = '" +comboBox1.Text +"'";
                 DataSet ds = conexion.llenar(Querty);
                 DataTable dt = ds.Tables[0];
-                String Path = AppDomain.CurrentDomain.BaseDirectory + "excelReporte.xlsx";
+                saveFileDialog1.ShowDialog();
+                String Path = saveFileDialog1.FileName + ".xlsx";
                 SLDocument osl = new SLDocument();
                 osl.ImportDataTable(1, 1, dt, true);
                 osl.SaveAs(Path);
-                richTextBox1.Text = Querty;
+
             }
         }
 
@@ -92,6 +93,11 @@ namespace PrototiposdeComedor
         private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
         {
            
+        }
+
+        private void Reportes_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

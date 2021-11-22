@@ -10,6 +10,8 @@ namespace PrototiposdeComedor
     static class Program
     {
         public static string globales1;
+        public static string date = DateTime.Now.ToString();
+        public static string usuario;
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
@@ -17,9 +19,17 @@ namespace PrototiposdeComedor
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            try
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new Form1());
+                return;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Excepcion " + e + " No contralada, consulte a soporte");
+            }
             
         }
     }

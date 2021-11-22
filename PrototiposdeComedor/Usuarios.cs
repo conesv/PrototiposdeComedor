@@ -197,5 +197,10 @@ namespace PrototiposdeComedor
             DataSet ds = conexion.llenar("Select USUARIO,PASSWORD,PRIVILEGIOS,EMAIL from usuarios");
             dataGridView1.DataSource = ds.Tables[0];
         }
+
+        private void Usuarios_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

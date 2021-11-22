@@ -79,8 +79,10 @@
             // comboBox1
             // 
             this.comboBox1.DropDownHeight = 300;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.DropDownWidth = 400;
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.comboBox1.IntegralHeight = false;
             this.comboBox1.ItemHeight = 13;
             this.comboBox1.Location = new System.Drawing.Point(347, 437);
@@ -292,8 +294,9 @@
             this.Controls.Add(this.richTextBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Comensales";
-            this.Text = "Empleados";
+            this.Text = "Registro de Comensales";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Comensales_FormClosed);
             this.Load += new System.EventHandler(this.Comensales_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);

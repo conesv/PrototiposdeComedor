@@ -57,6 +57,7 @@ namespace PrototiposdeComedor
 
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
+            label3.Text = Program.usuario;
             if (Program.globales1.Equals("3"))
             {
                 UsuariosPB.Enabled = false;
@@ -71,7 +72,7 @@ namespace PrototiposdeComedor
 
         private void SalirPB_Click(object sender, EventArgs e)
         {
-            
+            Application.Exit();
         }
 
         private void ConfiguracionPB_Click(object sender, EventArgs e)
@@ -86,6 +87,16 @@ namespace PrototiposdeComedor
             this.Hide();
             Reportes reportes = new Reportes();
             reportes.Show();
+        }
+
+        private void MenuPrincipal_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
